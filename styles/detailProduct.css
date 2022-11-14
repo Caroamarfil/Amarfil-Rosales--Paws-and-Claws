@@ -1,0 +1,22 @@
+@import url(https://fonts.google.com/specimen/Abyssinica+SIL);
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abyssinica+SIL", sans-serif;
+    }
+    body {
+        background-color: #ffffff;
+        width: calc(100vw, (100vw - 100%));
+    }
+    section {
+        text-align: center;
+    }
+    header{
+        background-color:#d28574;
+    }   
+    
+    footer {
+        background-color:#d28574;
+    }

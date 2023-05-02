@@ -1,0 +1,13 @@
+
+h2{
+    color: crimson;
+}
+#producto-seleccionado{
+    display: flex;
+    align-items: left;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}

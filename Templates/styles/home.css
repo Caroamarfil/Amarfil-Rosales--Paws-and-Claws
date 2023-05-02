@@ -2,10 +2,20 @@ h1 {
     color: #000;
     text-align: center;
 }
-header{
-    background-color:#d28574;
-}   
+.product-name{
+    color: crimson;
+}
 
-footer {
-    background-color:#d28574;
+
+#product-items {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+       
+}
+#elementos-ind{
+    margin-top: 2em;
+   
 }

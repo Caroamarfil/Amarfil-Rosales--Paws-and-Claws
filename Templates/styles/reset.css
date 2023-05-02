@@ -8,7 +8,7 @@
     }
     body {
         background-color: #ffffff;
-        width: calc(100vw, (100vw - 100%));
+        width: calc(100vw - (100vw - 100%));
         position: relative;
         padding-bottom: 300px;
         min-height: 100vh;
@@ -16,8 +16,8 @@
 
 header{
     background-color:#2d92b1;
-    position: sticky;
-  
+    height: 20em;
+    
 }
 header nav{
    padding-top: 32px;
@@ -43,13 +43,13 @@ header nav ul li:hover{
 }
 footer {
     background-color:#2d92b1;
-    height: 250px;
+    height: 20em;
     
 }   
 #logo-header{
-    height: 250px;
-    width: 250px;
-    flex: auto;   
+    height: 20em;
+    width: 20em;
+    flex: auto;  
     
 }
 
@@ -59,7 +59,32 @@ footer {
 }
 
 #logo-footer{
-    height: 250px;
-    width: 250px;
+    height: 20em;
+    width: 20em;
     flex: auto;  
+}
+@media (max-width: 768px){
+    #product-items{
+        flex-direction: column;
+
+    }
+    #logo-footer{
+        height: 8em;
+        width: 8em;
+        flex: auto;
+        ;  
+    }
+
+    #logo-header{
+        height: 8em;
+        width: 8em;
+        flex: auto;  
+        
+    }
+    footer{
+        height: 10em;
+    }
+    header{
+        height: 10em;
+    }
 }
